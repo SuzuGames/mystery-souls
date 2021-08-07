@@ -1,0 +1,219 @@
+<!doctype html>
+
+<html>
+<head><title>Suzu Games - Contact</title></script><base href="https://suzugames.w3spaces.com/"><script src="https://kit.fontawesome.com/e01b6b7553.js" crossorigin="anonymous"></script><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.copy {
+  color: rgb(255, 0, 0);
+  text-shadow:
+    0 0 5px rgb(255, 0, 0),
+    0 0 10px rgb(255, 0, 0),
+    0 0 20px rgb(255, 0, 0),
+    0 0 40px rgb(255, 0, 0),
+    0 0 80px rgb(255, 0, 0),
+    0 0 90px rgb(255, 0, 0),
+    0 0 100px rgb(255, 0, 0),
+    0 0 150px rgb(255, 0, 0);
+}
+
+@font-face {
+    font-family: fuente;
+    src: url("fuente.ttf");
+}
+
+.nav_ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a1a1a;
+    font-size: 13px;
+}
+
+.nav_li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.contact_ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 60%;
+}
+
+.contact_li {
+    font-size: 72px;
+    border-bottom:1px solid rgb(104, 43, 43);
+}
+
+#cont1 a {
+    color: #FF5700;
+    display: block;
+    padding: 6px 90px;
+    text-decoration: none;
+}
+
+#cont2 a {
+    color: rgb(188, 174, 238);
+    display: block;
+    padding: 6px 90px;
+    text-decoration: none;
+}
+
+#cont3 a {
+    color: rgb(255, 0, 0);
+    display: block;
+    padding: 6px 90px;
+    text-decoration: none;
+}
+
+#cont4 a {
+    color: #00acee ;
+    display: block;
+    padding: 6px 90px;
+    text-decoration: none;
+}
+
+#cont5 a {
+    color: #5865F2 ;
+    display: block;
+    padding: 6px 90px;
+    text-decoration: none;
+}
+
+#cont6 a {
+    color: #ffffff ;
+    display: block;
+    padding: 6px 90px;
+    text-decoration: none;
+}
+
+#cont7 a {
+    color: #ffffff ;
+    display: block;
+    padding: 6px 90px;
+    text-decoration: none;
+}
+
+.contact_li:last-child {
+    border-bottom: none;
+}
+
+.nav_li:last-child {
+    border-right: none;
+}
+.nav_li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #0600a6;
+}
+
+p {
+    color: red;
+}
+
+.imgtitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    font-family: fuente
+}
+
+.mainimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+</style>
+</head>
+
+    <body style="background-color:black;",>
+        
+    <div>
+        <img id="imgtitle" class="imgtitle" src="https://suzugames.files.wordpress.com/2020/08/suzugames.png?w=780"></img>
+    </div>
+    <div>
+        <ul id="nav_bar" class="nav_ul">
+            <li class="nav_li"><a href="https://suzugames.w3spaces.com/"><i class="fas fa-home"></i> Home</a></li> 
+            <li class="nav_li"><a href="https://suzugames.w3spaces.com/games.html"><i class="fas fa-gamepad"></i></i> Games</a></li>
+            <li class="nav_li"><a href="https://suzugames.w3spaces.com/contact.html" class="active"><i class="fas fa-envelope"></i> Contact</a></li>
+            <li class="nav_li"><a href="https://suzugames.w3spaces.com/about.html"><i class="fas fa-question"></i> About</a></li>
+        </ul>
+    </div>
+    <div>
+        <ul style="text-align: center;" class="contact_ul">
+            <li id="cont3" class="contact_li" onclick="youtube()"><a href="https://suzugames.w3spaces.com/contact.html#youtube"><i class="fab fa-youtube"></i></a></li>
+            <li id="cont1" class="contact_li"><a href="https://suzugames.w3spaces.com/contact.html#reddit"><i class="fab fa-reddit"></i></a></li> 
+            <li id="cont4" class="contact_li"><a href="https://suzugames.w3spaces.com/contact.html#twitter"><i class="fab fa-twitter"></i></a></li>
+            <li id="cont7" class="contact_li"><a href="https://suzugames.w3spaces.com/contact.html#itchio"><i class="fab fa-itch-io"></i></a></li>
+            <li id="cont5" class="contact_li"><a href="https://suzugames.w3spaces.com/contact.html#discord"><i class="fab fa-discord"></i></a></li>
+            <li id="cont2" class="contact_li"><a href="https://suzugames.w3spaces.com/contact.html#instagram"><i class="fab fa-instagram-square"></i></a></li>
+            <li id="cont6" class="contact_li"><a href="https://suzugames.w3spaces.com/contact.html#github"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </div>
+    <div style="position: relative;">
+        <p class="copy" style="margin-bottom: 55px; bottom: 0; text-align:center; width:100%; font-size: 12px;">Suzu Games &copy; All rights reserved.</p>
+    </div>
+    
+    </body>
+
+    <script>
+        // Redirect
+        function youtube() {
+            var red = 1;
+            redirect();
+        };
+        function redirect() {
+            if (red === 1) {
+                window.location.href = "https://www.youtube.com/channel/UCx4hT6zaMWDS8Phf5Yge3nA";
+            }else if (window.location.href = "https://suzugames.w3spaces.com/contact.html#reddit") {
+                window.location.href = "https://www.reddit.com/user/SuZumito7u7"
+            }else if (window.location.href = "https://suzugames.w3spaces.com/contact.html#twitter") {
+                window.location.href = "https://www.twitter.com/Suzu__Games"
+            }else if (window.location.href = "https://suzugames.w3spaces.com/contact.html#itchio") {
+                window.location.href = "https://suzugames.itchio.com"
+            }else if (window.location.href = "https://suzugames.w3spaces.com/contact.html#discord") {
+                window.location.href = "https://discord.com/invite/frEAB7a"
+            }else if (window.location.href = "https://suzugames.w3spaces.com/contact.html#instagram") {
+                window.location.href = "https://instagram.com/suzugames"
+            }else if (window.location.href = "https://suzugames.w3spaces.com/contact.html#github") {
+                window.location.href = "https://github.com/suzugames"
+            }
+        };
+        // Mobile detector
+        if (typeof window.orientation !== 'undefined') {
+            // Mobile
+            document.getElementById("imgtitle").style.width = 100 + "%";
+            document.getElementById("nav_bar").style.fontSize = 1 + "px";
+        }else{
+            // Computer
+            document.getElementById("imgtitle").style.width = 45 + "%";
+        };
+        var red = 0
+    </script>
+
+</html>
+
+
+
+
+
